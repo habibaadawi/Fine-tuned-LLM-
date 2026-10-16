@@ -1,6 +1,6 @@
 # LLaVA-Med Chest X-Ray Fine-Tuning Pipeline
 
-A specialized pipeline for fine-tuning the **LLaVA-1.5-7B** vision-language model on medical imaging datasets to automate chest radiography report generation[cite: 2].
+A specialized pipeline for fine-tuning the **LLaVA-1.5-7B** vision-language model on medical imaging datasets to automate chest radiography report generation.
 
 ---
 
@@ -10,9 +10,9 @@ This repository contains data curation scripts and training workflows designed t
 ---
 
 ## Dataset & Curation
-* **Source:** Indiana University Chest X-Ray Dataset (via Kaggle)[cite: 2].
-* **Filtered Samples:** **3,301** high-quality frontal projection image-report pairs[cite: 2].
-* **Data Format:** Multi-turn conversational structures mapping `<image>` tokens and expert radiologist prompts to structured `FINDINGS` and `IMPRESSION` outputs[cite: 2].
+* **Source:** Indiana University Chest X-Ray Dataset (via Kaggle).
+* **Filtered Samples:** **3,301** high-quality frontal projection image-report pairs.
+* **Data Format:** Multi-turn conversational structures mapping `<image>` tokens and expert radiologist prompts to structured `FINDINGS` and `IMPRESSION` outputs.
 
 ---
 
