@@ -17,8 +17,8 @@ This repository contains data curation scripts and training workflows designed t
 ---
 
 ## Tech Stack & Requirements
-* **Model:** `llava-hf/llava-1.5-7b-hf`[cite: 2]
-* **Frameworks:** PyTorch[cite: 2], Transformers[cite: 2], Tokenizers[cite: 2]
+* **Model:** `llava-hf/llava-1.5-7b-hf`
+* **Frameworks:** PyTorch, Transformers, Tokenizers
 * **Environment:** Python 3.12+, CUDA-enabled GPU (NVIDIA T4 / A100 recommended)
 
 ---
@@ -27,22 +27,22 @@ This repository contains data curation scripts and training workflows designed t
 
 The model was successfully fine-tuned for **1 full epoch** across **826 total steps**. 
 
-* **Epochs Completed:** 1 / 1[cite: 2]
+* **Epochs Completed:** 1 / 1
 * **Loss Convergence:**
-  * **Initial Step (710):** `10.7195`[cite: 2]
-  * **Mid-Training (760):** `3.8801`[cite: 2]
-  * **Final Step (820):** `3.6949`[cite: 2]
+  * **Initial Step (710):** `10.7195`
+  * **Mid-Training (760):** `3.8801`
+  * **Final Step (820):** `3.6949`
 
 ### Training Progression Snippet
 | Step | Training Loss |
 | :--- | :--- |
-| 710 | 10.7195[cite: 2] |
-| 730 | 4.3478[cite: 2] |
-| 750 | 3.9135[cite: 2] |
-| 770 | 3.8274[cite: 2] |
-| 790 | 3.7378[cite: 2] |
-| 810 | 3.7138[cite: 2] |
-| **820** | **3.6949**[cite: 2] |
+| 710 | 10.7195 |
+| 730 | 4.3478 |
+| 750 | 3.9135 |
+| 770 | 3.8274 |
+| 790 | 3.7378 |
+| 810 | 3.7138 |
+| **820** | **3.6949** |
 
 ---
 
